@@ -3,3 +3,9 @@ __pycache__
 .vscode
 mysql_dmp
 venv
+config.py
+archive
+staging
+logs
+dir-stats/stats
+DomainSpecificThesaurus

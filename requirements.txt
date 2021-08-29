@@ -1,4 +1,11 @@
 requests
 mysql.connector
 pandas
-csv
+google-api-python-client
+bing-image-downloader
+nltk==3.6.2
+datetime==5.4.0
+DomainThesaurus==1.2.3
+lxml==4.6.3
+bs4
+python-Levenshtein

@@ -52,11 +52,11 @@ query3 = ("SELECT term1, count(term2) "
             "ORDER BY term1 DESC")
 
 # Find synset by term1 keyword
-query4 = "SELECT term1, term2 FROM `SEWordSim-r1`.Word_Similarity WHERE term1 like 'Eclipse'"
+query4 = "SELECT term1, term2 FROM `SEWordSim-r1`.Word_Similarity WHERE term1 like 'xcode'"
 
 printQryResults(query2)
 # expQueryResults(query3, 'synset_count_full')
-expQueryResults(query4, 'synset_eclipse') 
+expQueryResults(query4, 'synset_xcode') 
 
 cursor.close()
 cnx.close()
